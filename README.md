@@ -132,29 +132,29 @@ Sebelum melanjutkan ke langkah berikutnya pastikan bahwa Node.js dan NPM sudah t
 ironfish status -f
 ```
 
-Jika sudah sinkron maka akan muncul output seperti ini di terminal
+   Jika sudah sinkron maka akan muncul output seperti ini di terminal
 
-```console
-Version              0.1.61 @ 009c85e
-Node                 STARTED
-Node Name            bayy420
-Block Graffiti       bayy420
-Memory               Heap: 58.67 MiB -> 92.03 MiB / 4.00 GiB
-(1.4%), RSS: 546.69 MiB (3.4%), Free: 2.94 GiB (81.1%)
-CPU                  Cores: 6, Current: 398.1%
-P2P Network          CONNECTED - In: 214 B/s, Out: 2.10 KB/s,
-peers 46
-Mining               STARTED - 1 miners, 0 mined
-Mem Pool             Count: 1 tx, Bytes: 2.70 KiB
-Syncer               IDLE - 3.41 blocks added/sec
-Blockchain           000000000015da69abfdeb77aefb601ed6049d8bf
-191ee2c6e01f60bf3aec8ca (4115), Since HEAD: 10s 284ms (SYNCED)
-Accounts             000000000015da69abfdeb77aefb601ed6049d8bf
-191ee2c6e01f60bf3aec8ca (4115)
-Telemetry            STOPPED
-Workers              STARTED - 0 -> 0 / 5 - 0.03 jobs Δ, 0.81
-jobs/s
-```
+   ```console
+   Version              0.1.61 @ 009c85e
+   Node                 STARTED
+   Node Name            bayy420
+   Block Graffiti       bayy420
+   Memory               Heap: 58.67 MiB -> 92.03 MiB / 4.00 GiB
+   (1.4%), RSS: 546.69 MiB (3.4%), Free: 2.94 GiB (81.1%)
+   CPU                  Cores: 6, Current: 398.1%
+   P2P Network          CONNECTED - In: 214 B/s, Out: 2.10 KB/s,
+   peers 46
+   Mining               STARTED - 1 miners, 0 mined
+   Mem Pool             Count: 1 tx, Bytes: 2.70 KiB
+   Syncer               IDLE - 3.41 blocks added/sec
+   Blockchain           000000000015da69abfdeb77aefb601ed6049d8bf
+   191ee2c6e01f60bf3aec8ca (4115), Since HEAD: 10s 284ms (SYNCED)
+   Accounts             000000000015da69abfdeb77aefb601ed6049d8bf
+   191ee2c6e01f60bf3aec8ca (4115)
+   Telemetry            STOPPED
+   Workers              STARTED - 0 -> 0 / 5 - 0.03 jobs Δ, 0.81
+   jobs/s
+   ```
 
 2. Buat terminal baru untuk menjalankan miner
    ```console
